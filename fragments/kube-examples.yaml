@@ -39,7 +39,6 @@ write_files:
       selector:
         name: web
       containerPort: 80
-      createExternalLoadBalancer: true
   - path: /etc/kubernetes/examples/stress.replica
     owner: "root:root"
     permissions: "0644"
